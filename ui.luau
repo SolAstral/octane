@@ -4750,6 +4750,15 @@ local Library = {
                     local ThemeName
                     local ThemesFolder = Library.Directory .. Library.Folders.Themes .. "/"
 
+                    ThemingSection:Textbox({
+                        Name = "Font Size",
+                        Flag = "FSize",
+                        Default = "",
+                        Callback = function(Value)
+                            Library.FontSize = Value
+                        end
+                    })
+
                     local ThemesDropdown = ThemingSection:Dropdown({
                         Name = "Themes",
                         Flag = "Themes",
