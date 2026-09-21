@@ -45,7 +45,7 @@ local Library = {
         Themes = "/Themes"
     },
 
-    FontSize = 10,
+    FontSize = 11,
 
     Animation = {
         Time = 0.3,
