@@ -49,7 +49,7 @@ local Library = {
 		Themes = "/Themes",
 	},
 
-	FontSize = 8,
+	FontSize = 12,
 
 	Animation = {
 		Time = 0.3,
@@ -237,9 +237,9 @@ do
 			return Font.new(getcustomasset(`{Library.Directory .. Library.Folders.Assets}/{Name}.font`))
 		end
 
-		Library.Font = CustomFont:New("ProggyTiny", 400, "Regular", {
-			Id = "Proggy Tiny",
-			Url = "https://github.com/sametexe001/luas/raw/refs/heads/main/fonts/proggy-tiny.ttf",
+		Library.Font = CustomFont:New("ProggySquare", 400, "Regular", {
+			Id = "Proggy Square",
+			Url = "https://github.com/sametexe001/luas/raw/refs/heads/main/fonts/proggy-square.ttf",
 		})
 	end
 
